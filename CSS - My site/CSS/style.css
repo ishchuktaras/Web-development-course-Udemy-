@@ -1,3 +1,9 @@
 body {
-  background-color: #66bfbf;
+  background-color: #FFF89A;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  background-color: #086E7D;
 }
