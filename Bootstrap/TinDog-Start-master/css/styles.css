@@ -83,7 +83,7 @@ p {
 
 /* Testimonial Section */
 #testimonials {
-  padding: 5% 17%;
+
   text-align: center;
   background: #ef8172;
   color: #fff;
@@ -93,4 +93,19 @@ p {
   width: 10%;
   border-radius: 100px;
   margin: 20px;
+}
+
+.carousel-item {
+  padding: 5% 17%;
+}
+
+#press {
+  background: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
