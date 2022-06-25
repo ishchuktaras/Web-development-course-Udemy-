@@ -57,7 +57,7 @@ p {
 }
 
 .title-image {
-  width: 15%;
+  width: 290px;
   transform: rotate(25deg);
   position: absolute;
   right: 22%;
@@ -121,4 +121,15 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    width: 270px;
+    position: static;
+    transform: rotate(0);
+  }
 }
