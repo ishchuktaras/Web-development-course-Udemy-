@@ -4,7 +4,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat-Bold', sans-serif;
+  font-family: 'Montserrat-Bold';
 }
 
 p {
@@ -12,13 +12,20 @@ p {
 }
 
 /* Headings */
+
 .big-heading {
-  font-family: 'Montserrat-Bold', sans-serif;
+  font-family: 'Montserrat-Black';
   font-size: 3.5rem;
   line-height: 1.5;
 }
 
+.section-heading {
+  font-size: 3rem;
+  line-height: 1,5;
+}
+
 /* Conteiners */
+
 .container-fluid {
   padding: 7% 15%;
 }
@@ -36,7 +43,7 @@ p {
 
 /* Navigation Bar */
 .navbar {
-  padding-bottom: 4.5rem;
+  padding-bottom: 0 0 4.5rem;
 }
 
 .navbar-brand {
@@ -145,6 +152,7 @@ p {
 
 
 /* Footer section */
+
 .social-icon {
   margin: 20px 10px;
 }
@@ -155,7 +163,6 @@ p {
   }
 
   .title-image {
-    width: 270px;
     position: static;
     transform: rotate(0);
   }
